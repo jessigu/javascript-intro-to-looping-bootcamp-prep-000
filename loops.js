@@ -9,14 +9,12 @@ function forLoop(array) {
     return array;
 }
 
-function whileLoop(number) {
-  const n = Math.floor(Math.random() * 100);
-  while (n >= 0) {
-    console.log(--countdown);
-    if (n === 0) {
-      return 'done';
+function whileLoop(n) {
+  let countdown = n; 
+    while (countdown > 0) {
+      console.log(--countdown);
     }
-  }
+    return 'done';
 }
 
 function doWhileLoop(array) {
