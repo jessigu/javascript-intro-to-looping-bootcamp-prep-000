@@ -9,7 +9,7 @@ function forLoop(array) {
     }
 }
 
-function whileLoop(n) {
+function whileLoop(number) {
   let n = 23; 
   while (n >= 0) {
     console.log(--n);
