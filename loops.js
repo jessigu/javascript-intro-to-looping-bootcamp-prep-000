@@ -10,9 +10,9 @@ function forLoop(array) {
 }
 
 function whileLoop(number) {
-  let n = 23; 
+  const n = Math.floor(Math.random() * 100);
   while (n >= 0) {
-    console.log(--n);
+    console.log(--countdown);
     if (n === 0) {
       return 'done';
     }
