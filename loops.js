@@ -22,7 +22,7 @@ function doWhileLoop(array) {
     return Math.random() >= 0.5;
   }
   do {
-    array.pop;
-  } 
-  while (array.length > 0 && incrementVariable());
+    array.pop();
+  } while (array.length > -1 && maybeTrue());
+  return array;
 }
