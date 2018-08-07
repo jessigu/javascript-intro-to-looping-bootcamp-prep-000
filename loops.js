@@ -9,10 +9,10 @@ function forLoop(array) {
     }
 }
 
-function whileLoop(number) {
+function whileLoop(n) {
   let countdown = 23; 
   while (countdown >= 0) {
     console.log(--countdown);
-    return (countdown === 0 ? 'done' : '');
+    return (n === 0 ? 'done' : '');
   }
 }
