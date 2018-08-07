@@ -13,6 +13,8 @@ function whileLoop(n) {
   let countdown = 23; 
   while (countdown >= 0) {
     console.log(--countdown);
-    return (n !== 0 ? '' : 'done');
+    if (n === 0) {
+      return 'done';
+    }
   }
 }
